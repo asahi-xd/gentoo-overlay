@@ -11,7 +11,7 @@
 		doas instead.
 	</longdescription>
 	<use>
-		<flag name="man">Build and install the manpage using <pkg>app-text/asciidoc</pkg></flag>
+		<flag name="man">Build and install the manpage using <pkg>dev-ruby/asciidoctor</pkg></flag>
 	</use>
 	<upstream>
 		<remote-id type="github">jirutka/doas-sudo-shim</remote-id>
