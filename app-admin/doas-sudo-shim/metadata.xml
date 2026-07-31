@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>asahi01@airmail.cc</email>
+	</maintainer>
+	<longdescription lang="en">
+		A shim for the sudo command that translates a subset of sudo's
+		command-line options into their doas equivalents, allowing scripts
+		and tools that invoke sudo to work transparently on systems using
+		doas instead.
+	</longdescription>
+	<use>
+		<flag name="man">Build and install the manpage using <pkg>app-text/asciidoc</pkg></flag>
+	</use>
+	<upstream>
+		<remote-id type="github">jirutka/doas-sudo-shim</remote-id>
+	</upstream>
+</pkgmetadata>
